@@ -1,0 +1,33 @@
+li{
+	list-style-type: none;
+	margin: 7px;
+}
+
+h1{
+	float: left; 
+	margin-left: 10%;
+}
+
+p{
+	margin-left: 10%;
+}
+
+.loginpage{
+	display: inline-block;
+}
+
+#log{
+	margin: 10px;
+	display: inline;
+}
+
+#sig{
+	margin: 10px;
+	display: inline;
+}
+
+#loginAndsignup{
+	float: left;
+	margin-left: 65%;
+	margin-top: 5%;
+}

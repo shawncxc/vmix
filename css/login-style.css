@@ -1,0 +1,200 @@
+li{
+	list-style-type: none;
+	margin: 7px;
+	display: inline;
+}
+
+li#log{
+	margin: auto;
+	width: 150px;
+	background-color: #5195ce;
+}
+
+li#sig{
+	margin: auto;
+	width: 150px;
+	background-color: #5195ce;
+}
+
+li#log>a, li#sig>a{
+	color: white;
+	text-align: center;
+}
+
+/*#loginAndsignup{
+	margin-left: 65%;
+	margin-top: 80%;
+}*/
+
+#sheets{
+	float: left;
+	border: solid 2px #337AB7;
+	background-color: #337AB7;
+	color: white;
+	width: 300px;
+	padding: 10px;
+}
+
+#sheetslink{
+	float: left;
+	margin-top: 50px;
+	width: 300px;
+}
+
+/*----------nav bar------------*/
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: white;  /*Sets the text hover color on navbar*/
+	background-color: #337ab7;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color: white; /*BACKGROUND color for active*/
+	background-color: #E68A00;
+}
+
+.navbar-inverse {
+    background-color: #202020;
+    border-color: red;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #262626;
+   	text-decoration: none;
+  	background-color: #66CCFF;  /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #E68A00; /*Change rollover cell color here*/
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white; /*Change active text color here*/
+}
+
+a.navbar-brand{
+    font-size: 50px;
+    padding-top: 25px;
+}
+/*----------nav bar------------*/
+
+/*----------background video-----------*/
+#bgvid{
+	position:fixed;
+	left:0;top:0;
+	min-width:100%;
+	min-height:120%;
+	width:auto;
+	height:auto;
+	z-index:-100;
+	visibility: visible;
+}
+
+#block{
+	position:fixed;
+	left:0;top:0;
+	min-width:100%;
+	min-height:120%;
+	width:auto;
+	height:auto;
+	z-index:-50;
+	visibility: visible;
+}
+
+
+/*--------------page layout------------*/
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+#top{
+	float: left;
+	min-height: 1px;
+	height: 15%;
+	width: 100%;
+}
+
+#mid{
+	float: left;
+	min-height: 1px;
+	height: 65%;
+	width: 100%;
+}
+
+#display{
+	float: left;
+	min-height: 1px;
+	height: 100%;
+	width: 70%;
+}
+
+#logSig{
+	float: left;
+	min-height: 1px;
+	height: 100%;
+	width: 30%;
+}
+
+#bottom{
+	background-color: #202020;
+	float: left;
+	min-height: 1px;
+	height: 20%;
+	width: 100%;
+}
+.margin{
+	float: left;
+	width: 5%;
+	height: 100%;
+	background-color: #202020;
+}
+#bottom_container{
+	float: left;
+	width: 90%;
+	height: 100%;
+	background-color: #202020;
+}
+.foot_info{
+	float: left;
+	color: grey;
+	width:15%;
+	height:80%;
+	background-color: #202020;
+	font-size: 12px;
+}
+
+.foot_info a{	
+	margin-left: 60px;
+	color:white;
+	
+}
+.foot_info a:hover{	
+	text-decoration: none;
+	cursor: pointer;
+}
+#logo{
+	width: 400px;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+
+#logoname{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 55px;
+    font-family: fantasy; 
+}
+
+
+
+
+/*--------------page layout------------*/
+

@@ -1,0 +1,70 @@
+a {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffd366;
+}
+
+.inner {
+  width: 400px;
+  height: 100px;
+}
+
+.activity {
+  padding: 0;
+  margin: 2em 0;
+  list-style: none;
+}
+.activity li {
+    -webkit-transition: box-shadow 0.2s ease;
+    -moz-transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    display: inline-block;
+    font-size: .889em;
+    height: 85px;
+    margin: 11px 10px 0px 28px;
+    position: relative;
+    text-align: center;
+    text-transform: lowercase;
+    width: 85px;
+    line-height: 85px;
+}
+.activity li a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.activity li:hover {
+  box-shadow: 0 0 0 7px white;
+}
+.activity li:hover:before {
+  -webkit-transform: scale(0.925);
+  -moz-transform: scale(0.925);
+  -ms-transform: scale(0.925);
+  -o-transform: scale(0.925);
+  transform: scale(0.925);
+  box-shadow: 0 0 0 1px #fff;
+  opacity: .5;
+}
+.activity li:before {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 50%;
+  bottom: 0;
+  box-shadow: 0 0 0 1px #fff;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

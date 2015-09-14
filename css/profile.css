@@ -1,0 +1,25 @@
+#userphoto{
+	float: left;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+#userimage{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.ui-tabs{
+	width: 700px;
+	height: 400px;
+	float: left;
+}
+
+#userinfo{
+	margin-top: 20px;
+}
+
+#tabs{
+	//background-color: white;
+}

@@ -1,0 +1,41 @@
+ul{
+	list-style: none;
+	display: block;
+}
+
+ul:hover{
+	cursor: pointer;
+}
+
+#header_show{
+	float: right;
+	background-color: black;
+	width: 100px;
+	height: 60px;
+	color: orange;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#userprofile{
+	background-color: black;
+	width: 100px;
+	height: 60px;
+	color: orange;
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#signout{
+	background-color: black;
+	width: 100px;
+	height: 60px;
+	color: orange;
+	margin: auto;
+	//margin-top: 40px;
+	text-align: center;
+	padding-top: 20px;
+}
